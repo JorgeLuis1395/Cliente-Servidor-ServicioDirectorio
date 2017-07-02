@@ -28,7 +28,7 @@ public class AfinamientoServidorHilos extends Thread {
     public void run(){
         Ejecucion();
     }
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         try {
             final int puerto=4314;
             ServerSocket servidor=new ServerSocket(puerto);
@@ -42,6 +42,6 @@ public class AfinamientoServidorHilos extends Thread {
         } catch (IOException ex) {
             Logger.getLogger(AfinamientoServidorHilos.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+    }*/
     
 }
